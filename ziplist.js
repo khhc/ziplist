@@ -10,3 +10,14 @@ function zipList(a, b) {
 }
 
 console.log(zipList(t1, t2));
+
+function zipListTheSimpleWay(a, b) {
+  return _.flatten(_.zip(a, b));
+}
+
+console.log(zipListTheSimpleWay(t1, t2));
+
+/*
+Attempt #2
+16 minutes and 38 seconds
+ */
